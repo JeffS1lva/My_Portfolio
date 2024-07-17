@@ -1,4 +1,4 @@
-import { SectionContact } from "../components/SectionContact"
+import { SectionContact } from "../components/SectionContact";
 import { PiDevices } from "react-icons/pi";
 import { FiSmartphone } from "react-icons/fi";
 import { PiDesktopTowerLight } from "react-icons/pi";
@@ -6,16 +6,14 @@ import { Header } from "../components/Header";
 
 export function About() {
   return (
-    <div className="flex  sm:w-[188vh] gap-6" >
+    <div className="flex flex-col gap-6 md:flex-row">
       <SectionContact />
-      <section className="w-auto sm:h-[87vh] bg-back rounded-md p-4 scrollbar scrollbar-thumb-green-700 ">
-        <div>
-          <Header />
-        </div>
+      <section className="w-full h-[87vh] bg-back rounded-md p-4 scrollbar scrollbar-thumb-green-700 overflow-y-auto">
+        <Header />
         <div className="mt-1">
-          <h1 className="text-2xl  font-semibold">Sobre mim</h1>
-          <p className="border border-green-700 w-24"></p>
-          <p className="font-normal text-md m-auto mt-7 w-full  text-gray-300">
+          <h1 className="text-2xl font-semibold">Sobre mim</h1>
+          <div className="border border-green-700 w-24"></div>
+          <p className="font-normal text-md mt-7 text-gray-300">
             👋🏻 Olá! Sou Jefferson, um Desenvolvedor Front-End apaixonado por
             desafios e aprendizado contínuo. Atualmente, estou cursando Análise
             e Desenvolvimento de Sistemas e Programação Front-End na Rocketseat,
@@ -31,32 +29,30 @@ export function About() {
           </p>
         </div>
 
-        <section>
-          <p className="w-96 m-auto mt-5 border border-green-700" />
+        <div className="w-full mt-5 border border-green-700"></div>
 
-          <div className="flex justify-center gap-9  ">
-            <div className="w-full bg-zinc-600 rounded-md p-4 flex gap-5 mt-7  items-center ">
-              <PiDevices size={59} className="mt-3 text-green-600" />
-              <div>
-                <h1 className="font-bold text-lg">Web Development</h1>
-                <p className="text-sm">
-                  Desenvolvendo sites de alta qualidade.
-                </p>
-              </div>
-            </div>
-            <div className="w-full bg-zinc-600 rounded-md p-4 flex gap-5 mt-7 items-center ">
-              <FiSmartphone size={59} className="mt-3 text-green-600" />
-              <div>
-                <h1 className="font-bold text-lg">Mobile Web</h1>
-                <p className="text-sm">
-                  Desenvolvendo sites de alta qualidade e responsivas.
-                </p>
-              </div>
+        <div className="flex flex-col gap-1 mt-7 ">
+          <div className="w-full bg-zinc-600 rounded-md p-4 flex items-center">
+            <PiDevices size={59} className="text-green-600" />
+            <div className="ml-3">
+              <h1 className="font-bold text-lg">Web Development</h1>
+              <p className="text-sm">
+                Desenvolvendo sites de alta qualidade.
+              </p>
             </div>
           </div>
-          <div className="w-[83vh] bg-zinc-600 rounded-md p-2 flex gap-8 mt-3 m-auto items-center ">
-            <PiDesktopTowerLight size={75} className="mt-3 text-green-600" />
-            <div>
+          <div className="w-full bg-zinc-600 rounded-md p-4 flex items-center mt-4">
+            <FiSmartphone size={59} className="text-green-600" />
+            <div className="ml-3">
+              <h1 className="font-bold text-lg">Mobile Web</h1>
+              <p className="text-sm">
+                Desenvolvendo sites de alta qualidade e responsivos.
+              </p>
+            </div>
+          </div>
+          <div className="w-full bg-zinc-600 rounded-md p-2 flex items-center mt-4">
+            <PiDesktopTowerLight size={75} className="text-green-600" />
+            <div className="ml-3">
               <h1 className="font-bold text-lg">Fullstack Developer</h1>
               <p className="text-sm">
                 Unindo front-end e back-end para criar soluções web completas e
@@ -64,7 +60,7 @@ export function About() {
               </p>
             </div>
           </div>
-        </section>
+        </div>
       </section>
     </div>
   );

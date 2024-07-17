@@ -15,9 +15,6 @@ export function Header() {
             <Link to="/Portfolio"  className="list-none  ">
               <li className="hover:text-lime-600">Portfolio</li>
             </Link>
-            <Link to="/Contact" className="list-none ">
-              <li className="hover:text-lime-600 ">Contato</li>
-            </Link>
           </ul>
         </div>
       </section>

@@ -14,25 +14,14 @@ import Dashboard from "../assets/dashboard.png";
 
 export function Projects() {
   return (
-    <div className="flex gap-5">
+    <div className="flex gap-6 sm:w-[188vh] 2xl:w-full">
       <SectionContact />
       <section className="w-full sm:h-[87vh] bg-back rounded-md p-4 scrollbar scrollbar-thumb-green-700 overflow-y-auto">
       
         <Header />
         <h1 className="text-2xl font-semibold xl:mt-5">Projetos</h1>
         <p className="border border-green-700 w-24"></p>
-        <div className="list-none flex gap-4 mt-4 ">
-          <a href="#" className="hover:text-lime-600 ">
-            <li>Todos</li>
-          </a>
-          <a href="#" className="hover:text-lime-600 ">
-            <li>Web Design</li>
-          </a>
-          <a href="#" className="hover:text-lime-600 ">
-            <li>Development Web</li>
-          </a>
-        </div>
-        <div className="grid grid-cols-3 2xl:grid-cols-5 w-full 2xl:mt-7 gap-5 ">
+        <div className="grid grid-cols-3 2xl:grid-cols-5 w-full 2xl:mt-7 gap-5 sm:mt-6">
           <div className="relative">
             <img
               src={Pass}
@@ -46,7 +35,7 @@ export function Projects() {
               target="_blank"
             >
               <FaRegEye
-                className="w-16 p-1 bg-zinc-800 absolute left-[33%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
+                className="w-16 p-1 bg-zinc-800 absolute left-[38%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
                 size={38}
                 color="218F61"
               />
@@ -57,7 +46,7 @@ export function Projects() {
               target="_blank"
             >
               <CgDetailsMore
-                className="w-16 p-1 bg-zinc-800 absolute left-[58%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
+                className="w-16 p-1 bg-zinc-800 absolute left-[63%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
                 size={40}
                 color="218F61"
               />
@@ -78,7 +67,7 @@ export function Projects() {
               target="_blank"
             >
               <FaRegEye
-                className="w-16 p-1 bg-view-icon absolute left-[33%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
+                className="w-16 p-1 bg-view-icon absolute left-[38%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
                 size={38}
                 color="218F61"
               />
@@ -89,7 +78,7 @@ export function Projects() {
               target="_blank"
             >
               <CgDetailsMore
-                className="w-16 p-1 bg-zinc-800 absolute left-[58%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
+                className="w-16 p-1 bg-zinc-800 absolute left-[63%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
                 size={40}
                 color="218F61"
               />
@@ -110,7 +99,7 @@ export function Projects() {
               target="_blank"
             >
               <FaRegEye
-                className="w-16 p-1 bg-view-icon absolute left-[33%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
+                className="w-16 p-1 bg-view-icon absolute left-[38%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
                 size={38}
                 color="218F61"
               />
@@ -121,7 +110,7 @@ export function Projects() {
               target="_blank"
             >
               <CgDetailsMore
-                className="w-16 p-1 bg-zinc-800 absolute left-[58%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
+                className="w-16 p-1 bg-zinc-800 absolute left-[63%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
                 size={40}
                 color="218F61"
               />
@@ -142,7 +131,7 @@ export function Projects() {
               target="_blank"
             >
               <FaRegEye
-                className="w-16 p-1 bg-view-icon absolute left-[33%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
+                className="w-16 p-1 bg-view-icon absolute left-[38%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
                 size={38}
                 color="218F61"
               />
@@ -153,7 +142,7 @@ export function Projects() {
               target="_blank"
             >
               <CgDetailsMore
-                className="w-16 p-1 bg-zinc-800 absolute left-[58%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
+                className="w-16 p-1 bg-zinc-800 absolute left-[63%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
                 size={40}
                 color="218F61"
               />
@@ -174,7 +163,7 @@ export function Projects() {
               target="_blank"
             >
               <FaRegEye
-                className="w-16 p-1 bg-view-icon absolute left-[33%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
+                className="w-16 p-1 bg-view-icon absolute left-[38%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
                 size={38}
                 color="218F61"
               />
@@ -185,7 +174,7 @@ export function Projects() {
               target="_blank"
             >
               <CgDetailsMore
-                className="w-16 p-1 bg-zinc-800 absolute left-[58%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
+                className="w-16 p-1 bg-zinc-800 absolute left-[63%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
                 size={40}
                 color="218F61"
               />
@@ -206,7 +195,7 @@ export function Projects() {
               target="_blank"
             >
               <FaRegEye
-                className="w-16 p-1 bg-view-icon absolute left-[33%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
+                className="w-16 p-1 bg-view-icon absolute left-[38%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
                 size={38}
                 color="218F61"
               />
@@ -217,7 +206,7 @@ export function Projects() {
               target="_blank"
             >
               <CgDetailsMore
-                className="w-16 p-1 bg-zinc-800 absolute left-[58%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
+                className="w-16 p-1 bg-zinc-800 absolute left-[63%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
                 size={40}
                 color="218F61"
               />
@@ -238,7 +227,7 @@ export function Projects() {
               target="_blank"
             >
               <FaRegEye
-                className="w-16 p-1 bg-view-icon absolute left-[33%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
+                className="w-16 p-1 bg-view-icon absolute left-[38%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
                 size={38}
                 color="218F61"
               />
@@ -249,7 +238,7 @@ export function Projects() {
               target="_blank"
             >
               <CgDetailsMore
-                className="w-16 p-1 bg-zinc-800 absolute left-[58%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
+                className="w-16 p-1 bg-zinc-800 absolute left-[63%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
                 size={40}
                 color="218F61"
               />
@@ -270,7 +259,7 @@ export function Projects() {
               target="_blank"
             >
               <FaRegEye
-                className="w-16 p-1 bg-view-icon absolute left-[33%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
+                className="w-16 p-1 bg-view-icon absolute left-[38%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
                 size={38}
                 color="218F61"
               />
@@ -281,7 +270,7 @@ export function Projects() {
               target="_blank"
             >
               <CgDetailsMore
-                className="w-16 p-1 bg-zinc-800 absolute left-[58%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
+                className="w-16 p-1 bg-zinc-800 absolute left-[63%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
                 size={40}
                 color="218F61"
               />
@@ -302,7 +291,7 @@ export function Projects() {
               target="_blank"
             >
               <FaRegEye
-                className="w-16 p-1 bg-view-icon absolute left-[33%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
+                className="w-16 p-1 bg-view-icon absolute left-[38%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
                 size={38}
                 color="218F61"
               />
@@ -313,7 +302,7 @@ export function Projects() {
               target="_blank"
             >
               <CgDetailsMore
-                className="w-16 p-1 bg-zinc-800 absolute left-[58%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
+                className="w-16 p-1 bg-zinc-800 absolute left-[63%] top-[38%] transform -translate-x-1/2 rounded-lg hover:scale-110 hover:duration-300"
                 size={40}
                 color="218F61"
               />

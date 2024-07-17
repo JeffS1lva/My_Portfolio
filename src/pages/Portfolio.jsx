@@ -21,19 +21,19 @@ export function Portfolio() {
   const fileName = 'Jefferson_Silva.pdf';
 
   return (
-    <div className="flex gap-7">
+    <div className="sm:w-[188vh] 2xl:w-full flex gap-6">
       <SectionContact />
-      <section className="w-full h-[87vh] bg-back rounded-md p-4 overflow-auto scrollbar scrollbar-thumb-green-700">
+      <section className="w-full h-[87vh] bg-back rounded-md py-4 overflow-auto scrollbar scrollbar-thumb-green-700">
         <Header />
         <div className="ml-5">
-          <h1 className="text-2xl font-semibold xl:mt-5">Curriculo</h1>
-          <p className="border border-green-700 w-24"></p>
+          <h1 className="text-2xl font-semibold xl:mt-10">Curriculo</h1>
+          <p className="border border-green-700 w-24 2xl:ml-1"></p>
           <div className="relative">
             <a
               href={fileUrl}
               download={fileName}
               title="Download Curriculo"
-              className=" absolute bg-zinc-700 hover:bg-zinc-800 text-white font-semibold p-3 rounded right-0 -top-10"
+              className=" absolute bg-zinc-700 hover:bg-zinc-800 text-white font-semibold p-3 rounded right-0 -top-10 mr-3"
             >
               Baixar CV
             </a>
@@ -48,9 +48,9 @@ export function Portfolio() {
             />
             <p className="font-semibold text-xl">Formação Acadêmica</p>
           </div>
-          <p className="border border-gray-100 h-16 w-[0.1rem] ml-[6%] z-10"></p>
+          <p className="border border-gray-100 h-16 w-[0.1rem] ml-[5.4%] 2xl:ml-[3.4%] z-10"></p>
           <div className="flex gap-6 items-center ">
-            <p className=" w-6 h-6 mb-1 ml-[4.7%] border border-green-400 rounded-3xl bg-green-500"></p>
+            <p className=" w-6 h-6 mb-1 ml-[4.3%] 2xl:ml-[2.7%] border border-green-400 rounded-3xl bg-green-500"></p>
             <h3 className="font-semibold text-lg">
               Ensino Superior - Tecnologo
             </h3>
@@ -63,11 +63,11 @@ export function Portfolio() {
             </span>
           </div>
           <div className="relative">
-            <p className="absolute border border-gray-100 h-[8rem] w-[0.1rem] ml-[6%] -bottom-[3.2rem] "></p>
+            <p className="absolute border border-gray-100 h-[8rem] 2xl:h-[9.3rem] 2xl:-bottom-[4.5rem] w-[0.1rem] ml-[5.4%] 2xl:ml-[3.4%] -bottom-[3.2rem] "></p>
           </div>
           <div className="flex gap-6 items-center ">
-            <p className=" w-6 h-6 mt-[5.8%] ml-[4.7%] border border-green-400 rounded-3xl bg-green-500"></p>
-            <h3 className="font-semibold text-lg mt-[5%]">
+            <p className=" w-6 h-6 mt-[5.4%] ml-[4.3%] 2xl:ml-[2.7%] 2xl:mt-[4.6%] border border-green-400 rounded-3xl bg-green-500"></p>
+            <h3 className="font-semibold text-lg mt-[5%]  ">
               Cursos - Programação
             </h3>
           </div>
@@ -89,16 +89,16 @@ export function Portfolio() {
             />
             <p className="font-semibold text-xl">Experiências</p>
           </div>
-          <p className="border border-gray-100 h-16 w-[0.1rem] ml-[6%] z-10"></p>
+          <p className="border border-gray-100 h-14 w-[0.1rem] ml-[5.4%] 2xl:ml-[3.4%] z-10"></p>
           <div className="flex gap-6 items-center ">
-            <p className=" w-6 h-6 mb-1 ml-[4.7%] border border-green-400 rounded-3xl bg-green-500"></p>
+            <p className=" w-6 h-6 mb-1 ml-[4.3%] 2xl:ml-[2.7%] border border-green-400 rounded-3xl bg-green-500"></p>
             <h3 className="font-semibold text-lg">Auxiliar de Almoxarifado</h3>
           </div>
-          <div className="ml-[8.9%] font-light">
+          <div className="ml-[9.3%] 2xl:ml-[5.5rem] font-light">
             <span className="text-sm font-semibold text-green-400">
               2022 - Presente
             </span>
-            <p className="mt-2">
+            <p className="mt-2 2xl:w-[80rem] ">
               Receber e conferir materiais entregues, verificando sua
               conformidade com as ordens de compra e notas fiscais, Armazenar os
               materiais de forma segura e organizada, seguindo os procedimentos
@@ -106,15 +106,15 @@ export function Portfolio() {
             </p>
           </div>
           <div className="relative">
-            <p className="absolute border border-gray-100 h-[8rem] w-[0.1rem] ml-[6%] -bottom-[1.2rem] "></p>
+            <p className="absolute border border-gray-100 h-[6.5rem] w-[0.1rem] ml-[5.4%] 2xl:ml-[3.4%] -bottom-[1.2rem] "></p>
           </div>
           <div className="flex gap-6 items-center ">
-            <p className=" w-6 h-6 mt-5 ml-[4.7%] border border-green-400 rounded-3xl bg-green-500"></p>
+            <p className=" w-6 h-6 mt-5 ml-[4.3%] 2xl:ml-[2.7%] border border-green-400 rounded-3xl bg-green-500"></p>
             <h3 className="font-semibold text-lg mt-4">
               Operador de Loja - Pleno
             </h3>
           </div>
-          <div className="ml-[8.9%] font-light">
+          <div className="ml-[9.5%] 2xl:ml-[5.6rem] font-light">
             <span className="text-sm font-semibold text-green-400">
               2020 - 2021
             </span>
@@ -135,7 +135,7 @@ export function Portfolio() {
             />
             <p className="font-semibold text-xl">Tecnologias</p>
           </div>
-          <div className="grid grid-cols-6 ml-52 mt-14 gap-3 items-center w-7/12">
+          <div className="grid grid-cols-6 ml-52 mt-14 gap-3 items-center w-7/12 2xl:grid 2xl:grid-cols-12 2xl:gap-24 2xl:ml-36">
             <TbHtml
               className="w-20 p-2 bg-zinc-700 rounded-lg hover:bg-zinc-800"
               size={50}
