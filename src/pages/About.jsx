@@ -6,14 +6,14 @@ import { Header } from "../components/Header";
 
 export function About() {
   return (
-    <div className="flex flex-col gap-6 md:flex-row">
+    <div className="flex flex-col md:flex-row pt-7">
       <SectionContact />
-      <section className="w-full h-[87vh] bg-back rounded-md p-4 scrollbar scrollbar-thumb-green-700 overflow-y-auto">
+      <section className="w-full h-[88vh] mt-7  bg-back rounded-md p-3 scrollbar scrollbar-thumb-green-700 overflow-y-auto">
         <Header />
         <div className="mt-1">
-          <h1 className="text-2xl font-semibold">Sobre mim</h1>
-          <div className="border border-green-700 w-24"></div>
-          <p className="font-normal text-md mt-7 text-gray-300">
+          <h1 className="text-xl sm:text-2xl font-semibold">Sobre mim</h1>
+          <div className="border border-green-700 w-16 sm:w-24"></div>
+          <p className="font-normal text-md sm:text-md mt-7 text-gray-300">
             👋🏻 Olá! Sou Jefferson, um Desenvolvedor Front-End apaixonado por
             desafios e aprendizado contínuo. Atualmente, estou cursando Análise
             e Desenvolvimento de Sistemas e Programação Front-End na Rocketseat,
@@ -31,7 +31,7 @@ export function About() {
 
         <div className="w-full mt-5 border border-green-700"></div>
 
-        <div className="flex flex-col gap-1 mt-7 ">
+        <div className="flex flex-col gap-1 mt-7">
           <div className="w-full bg-zinc-600 rounded-md p-4 flex items-center">
             <PiDevices size={59} className="text-green-600" />
             <div className="ml-3">

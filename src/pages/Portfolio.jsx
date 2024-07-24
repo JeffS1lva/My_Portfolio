@@ -21,9 +21,9 @@ export function Portfolio() {
   const fileName = 'Jefferson_Silva.pdf';
 
   return (
-    <div className="sm:w-[188vh] 2xl:w-full flex gap-6">
+    <div className="sm:w-[188vh] 2xl:w-full flex ">
       <SectionContact />
-      <section className="w-full h-[87vh] bg-back rounded-md py-4 overflow-auto scrollbar scrollbar-thumb-green-700">
+      <section className="w-full h-[88vh]  bg-back rounded-md py-4 overflow-auto scrollbar scrollbar-thumb-green-700">
         <Header />
         <div className="ml-5">
           <h1 className="text-2xl font-semibold xl:mt-10">Curriculo</h1>
@@ -106,7 +106,7 @@ export function Portfolio() {
             </p>
           </div>
           <div className="relative">
-            <p className="absolute border border-gray-100 h-[6.5rem] w-[0.1rem] ml-[5.4%] 2xl:ml-[3.4%] -bottom-[1.2rem] "></p>
+            <p className="absolute border border-gray-100 h-[7.9rem] w-[0.1rem] ml-[5.4%] 2xl:ml-[3.4%] -bottom-[1.2rem] "></p>
           </div>
           <div className="flex gap-6 items-center ">
             <p className=" w-6 h-6 mt-5 ml-[4.3%] 2xl:ml-[2.7%] border border-green-400 rounded-3xl bg-green-500"></p>
