@@ -12,6 +12,9 @@ export default {
       },
       fontFamily: {
         montserrat: "Montserrat, sans-serif;"
+      },
+      screens: {
+        "mobile": "280px",
       }
     },
   },

@@ -14,13 +14,13 @@ import Dashboard from "../assets/dashboard.png";
 
 export function Projects() {
   return (
-    <div className="flex flex-col xl:flex-row w-full">
+    <div className="flex flex-col xl:flex-row w-full gap-3">
       <SectionContact />
-      <section className="w-full h-[88vh] mt-7 bg-back rounded-md p-4 scrollbar scrollbar-thumb-green-700 overflow-y-auto">
+      <section className="w-full h-[88vh]  bg-back rounded-md p-4 scrollbar scrollbar-thumb-green-700 overflow-y-auto">
         <Header />
         <h1 className="text-2xl font-semibold xl:mt-5">Projetos</h1>
         <p className="border border-green-700 w-24"></p>
-        <div className="grid grid-cols-1 xl:grid-cols-4 gap-5 mt-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-5 mt-6">
           <div className="relative">
             <img
               src={Pass}
@@ -28,17 +28,17 @@ export function Projects() {
               title="Projeto pass.in"
               className="mt-5 w-full h-56 object-cover rounded-lg hover:border-green-700 hover:border-[0.2rem]"
             />
-            <div className="flex items-center justify-between mt-3">
+            <div className="flex items-center justify-between mt-3 ">
               <div>
                 <p className="font-bold text-lg">Pass.in</p>
-                <p className="text-sm text-zinc-400">Desenvolvimento Web</p>
+                <p className="text-sm   text-zinc-400">Desenvolvimento Web</p>
               </div>
-              <div className="flex gap-2 font-extralight">
+              <div className="flex gap-2 font-extralight ">
                 <a
                   href="https://pass-in-six.vercel.app/"
                   title="Visualizar projeto"
                   target="_blank"
-                  className="p-2 bg-zinc-700 rounded-md hover:bg-zinc-800"
+                  className="p-2   bg-zinc-700 rounded-md hover:bg-zinc-800"
                 >
                   <IoEyeSharp size={30} />
                 </a>
@@ -46,7 +46,7 @@ export function Projects() {
                   href="https://github.com/JeffS1lva/pass.in"
                   title="Detalhes do Projeto"
                   target="_blank"
-                  className="flex p-2 bg-zinc-700 rounded-md hover:bg-zinc-800"
+                  className="flex p-2  bg-zinc-700 rounded-md hover:bg-zinc-800"
                 >
                   <CgDetailsMore size={30} />
                 </a>
@@ -55,24 +55,24 @@ export function Projects() {
           </div>
 
           {/* Mynotes */}
-          <div className="relative">
+          <div className="">
             <img
               src={Mynotes}
               alt="Projeto My Notes"
               title="Projeto My Notes"
               className="mt-5 w-full h-56 object-cover rounded-lg hover:border-green-700 hover:border-[0.2rem]"
             />
-            <div className="flex items-center justify-between mt-3">
+            <div className="flex items-center justify-between mt-3 ">
               <div>
                 <p className="font-bold text-lg">My Notes</p>
                 <p className="text-sm text-zinc-400">Desenvolvimento Web</p>
               </div>
-              <div className="flex gap-2 font-extralight">
+              <div className="flex gap-2 font-extralight ">
                 <a
                   href="https://my-notes-app-seven.vercel.app/"
                   title="Visualizar projeto"
                   target="_blank"
-                  className="p-2 bg-zinc-700 rounded-md hover:bg-zinc-800"
+                  className="p-2  bg-zinc-700 rounded-md hover:bg-zinc-800"
                 >
                   <IoEyeSharp size={30} />
                 </a>
@@ -80,7 +80,7 @@ export function Projects() {
                   href="https://github.com/JeffS1lva/My-Notes-App"
                   title="Detalhes do Projeto"
                   target="_blank"
-                  className="flex p-2 bg-zinc-700 rounded-md hover:bg-zinc-800"
+                  className="flex p-2  bg-zinc-700 rounded-md hover:bg-zinc-800"
                 >
                   <CgDetailsMore size={30} />
                 </a>

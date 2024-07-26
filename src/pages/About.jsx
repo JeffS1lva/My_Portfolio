@@ -2,13 +2,13 @@ import { SectionContact } from "../components/SectionContact";
 import { PiDevices } from "react-icons/pi";
 import { FiSmartphone } from "react-icons/fi";
 import { PiDesktopTowerLight } from "react-icons/pi";
-import { Header } from "../components/Header";
+import { Header } from "../components/Header"; 
 
 export function About() {
   return (
-    <div className="flex flex-col md:flex-row pt-7">
+    <div className="flex flex-col md:flex-row ">
       <SectionContact />
-      <section className="w-full h-[88vh] mt-7  bg-back rounded-md p-3 scrollbar scrollbar-thumb-green-700 overflow-y-auto">
+      <section className="w-full h-[88vh] bg-back rounded-md p-3 scrollbar scrollbar-thumb-green-700 overflow-y-auto">
         <Header />
         <div className="mt-1">
           <h1 className="text-xl sm:text-2xl font-semibold">Sobre mim</h1>

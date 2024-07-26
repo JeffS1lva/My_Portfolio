@@ -7,10 +7,10 @@ import { CiLinkedin } from "react-icons/ci";
 export function SectionContact() {
   return (
     <div className=" sm:p-6 lg:p-8 flex justify-center">
-      <section className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl bg-back rounded-lg p-4 sm:p-6 lg:p-8">
+      <section className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl bg-back rounded-lg p-4 sm:p-6 lg:p-8 2xl:">
         <div className="flex flex-col items-center text-center">
           <img
-            className="w-24 h-24 sm:w-32 sm:h-32 rounded-full mx-auto"
+            className="w-24 h-24 sm:w-32 sm:h-32 rounded-full mx-auto 2xl:mt-28"
             src="https://github.com/JeffS1lva.png"
             alt="perfil"
           />
