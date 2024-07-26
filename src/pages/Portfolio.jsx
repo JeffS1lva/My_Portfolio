@@ -139,7 +139,7 @@ export function Portfolio() {
             />
             <p className="font-semibold text-lg lg:text-xl">Tecnologias</p>
           </div>
-          <div className="grid grid-cols-3 gap-3 items-center mt-6 mx-5 lg:grid-cols-6 lg:gap-6 lg:mx-24 xl:grid-cols-6 2xl:grid-cols-12 2xl:gap-10 ">
+          <div className="grid grid-cols-3 gap-3 items-center mt-6 mx-6 sm:grid-cols-8 sm:gap-10 lg:grid-cols-6 lg:gap-6 lg:mx-24 xl:grid-cols-6 2xl:grid-cols-12 2xl:gap-10 ">
             <TbHtml
               className="w-16 p-2 bg-zinc-700 rounded-lg hover:bg-zinc-800 lg:w-20"
               size={50}
