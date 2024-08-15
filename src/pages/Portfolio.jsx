@@ -31,7 +31,7 @@ const ItemCard = ({ icon: Icon, title, description, date }) => (
 );
 
 export function Portfolio() {
-  const fileUrl = "../../public/Curriculo.pdf";
+  const fileUrl = "/Curriculo.pdf";
   const fileName = "Jefferson_Silva.pdf";
 
   return (
