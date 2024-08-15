@@ -15,7 +15,7 @@ const ServiceCard = ({ Icon, title, description }) => (
 
 export function About() {
   return (
-    <div className="flex flex-col md:flex-row">
+    <div className="flex flex-col md:flex-row gap-3">
       <SectionContact />
       <section className="w-full h-[88vh] bg-back rounded-md p-3 scrollbar scrollbar-thumb-green-700 overflow-y-auto">
         <Header />

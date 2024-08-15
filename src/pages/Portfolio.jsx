@@ -35,7 +35,7 @@ export function Portfolio() {
   const fileName = "Jefferson_Silva.pdf";
 
   return (
-    <div className="flex flex-col lg:flex-row gap-3">
+    <div className="flex flex-col lg:flex-row gap-3 p-1">
       <SectionContact />
       <section className="w-full h-[88vh] bg-back rounded-md py-4 overflow-auto scrollbar scrollbar-thumb-green-700">
         <Header />
