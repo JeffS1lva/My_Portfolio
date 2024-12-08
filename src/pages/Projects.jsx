@@ -73,7 +73,7 @@ const projects = [
     alt: "Projeto Tech",
     title: "Tech",
     description: "Desenvolvimento Web",
-    demoLink: "https://jeffs1lva.github.io/projeto-tech/?",
+    demoLink: "https://techadvance29.vercel.app/",
     detailsLink: "https://github.com/JeffS1lva/projeto-tech",
   },
   {
@@ -81,7 +81,7 @@ const projects = [
     alt: "Projeto Dashboard",
     title: "Dashboard",
     description: "Desenvolvimento Web",
-    demoLink: "https://github.com/JeffS1lva/dashboard",
+    demoLink: "https://dashboard-tailwindd.vercel.app/",
     detailsLink: "https://github.com/JeffS1lva/dashboard",
   },
 ];

@@ -31,7 +31,7 @@ const ItemCard = ({ icon: Icon, title, description, date }) => (
 );
 
 export function Portfolio() {
-  const fileUrl = "/Curriculo.pdf";
+  const fileUrl = "/JeffersonCv.pdf";
   const fileName = "Jefferson_Silva.pdf";
 
   return (
@@ -100,7 +100,7 @@ export function Portfolio() {
             description={[
               "Receber e conferir materiais entregues, verificando sua conformidade com as ordens de compra e notas fiscais, armazenar os materiais de forma segura e organizada, seguindo os procedimentos de armazenamento adequados.",
             ]}
-            date="2022 - Presente"
+            date="2024 - Presente"
           />
           <ItemCard
             icon={FaRegUser}
