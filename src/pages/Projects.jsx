@@ -1,6 +1,7 @@
 import { Header } from "../components/Header";
 import { SectionContact } from "../components/SectionContact";
 import { ProjectCard } from "../components/ProjectCard";
+import TodoList from "../assets/Todolist.png"
 import Pass from "../assets/Passin.png";
 import Mynotes from "../assets/Mynotes.png";
 import Gitfav from "../assets/gitfav.png";
@@ -12,6 +13,14 @@ import Tech from "../assets/tech.png";
 import Dashboard from "../assets/dashboard.png";
 
 const projects = [
+  {
+    image: TodoList,
+    alt: "Projeto todoList",
+    title: "TodoList",
+    description: "Desenvolvimento Web",
+    demoLink: "https://todo-list-ts-mocha.vercel.app/",
+    detailsLink: "https://github.com/JeffS1lva/todoListTs",
+  },
   {
     image: Pass,
     alt: "Projeto pass.in",
@@ -94,7 +103,7 @@ export function Projects() {
         <Header />
         <h1 className="text-2xl font-semibold xl:mt-5">Projetos</h1>
         <p className="border border-green-700 w-24"></p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-5 mt-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-4 gap-5 mt-6">
           {projects.map((project, index) => (
             <ProjectCard
               key={index}
